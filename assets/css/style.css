@@ -30,7 +30,7 @@ body {
   box-shadow: 0 0 5px rgb(74, 74, 74);
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 45%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
   overflow: hidden;
