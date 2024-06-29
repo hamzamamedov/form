@@ -70,7 +70,7 @@ h2 {
 .radios span {
   color: rgb(46, 46, 46);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .box .inputbox {
@@ -192,6 +192,7 @@ button:hover {
 .box input,
 select {
   background-color: rgba(128, 128, 128, 0.148);
+  font-size: 13px;
 }
 
 .radios input {
