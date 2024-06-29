@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      to top right,
+      rgb(41, 127, 247),
+      rgb(160, 43, 237) 90%
+    )
+    no-repeat;
+}
+
+.container {
+  width: 500px;
+  height: 550px;
+  box-shadow: 0 0 5px rgb(74, 74, 74);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h2 {
+  color: white;
+  background-color: black;
+  height: 45px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formbox {
+  height: 505px;
+  width: 100%;
+  background-color: azure;
+  padding: 20px 40px;
+}
+
+.box,
+.radios,
+.buttons {
+  height: 64px;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box span,
+.radios span {
+  color: rgb(46, 46, 46);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.box .inputbox {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name,
+.lastname {
+  height: 50%;
+  width: 45%;
+  position: relative;
+  border-radius: 4px;
+}
+
+.name input,
+.lastname input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.name label,
+.lastname label,
+.area label,
+.number label {
+  position: absolute;
+  color: grey;
+  font-size: 9px;
+  bottom: -14px;
+}
+
+.company input,
+.email input,
+.area input,
+.number input {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 50%;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+
+.area,
+.number {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.area {
+  width: 20%;
+  height: 50%;
+}
+
+.number {
+  width: 75%;
+  height: 50%;
+}
+
+.area input,
+.number input {
+  height: 100%;
+}
+
+.subject select {
+  width: 100%;
+  height: 50%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.radios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.radios label {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+}
+
+.radios label:first-child {
+  margin-right: 25px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  padding: 10px 25px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  font-weight: 800;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: rgb(68, 241, 33);
+}
+
+.box input,
+select {
+  background-color: rgba(128, 128, 128, 0.148);
+}
+
+.radios input {
+  accent-color: rgb(1, 152, 69);
+}
